@@ -1,0 +1,33 @@
+/upload/
+/images/
+/mobile/crm/images/
+/bitrix/*
+
+/restore.php
+/*.txt
+/*.xml
+/*.zip
+/*.tar.gz
+*.log
+
+/robots*.*
+/sitemap*.xml
+/yandex*.*
+/google*.*
+/*.html
+
+# core bitrix
+/bitrtix/
+/local/templates/gkvr/frontend/
+# PHPStorm
+/.idea/
+
+# Composer
+vendor/
+
+#ci
+/.ci.lock
+
+# .htaccess
+/.htaccess
+
