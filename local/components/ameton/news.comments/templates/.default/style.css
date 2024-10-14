@@ -1,0 +1,36 @@
+.comments-section {
+    margin: 20px;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #ccc;
+}
+
+.comment[data-level="1"] {
+    padding-left: 40px;
+}
+
+.comment[data-level="2"] {
+    padding-left: 60px;
+}
+
+/* Добавляем отступ для вложенных комментариев */
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-text {
+    margin-top: 5px;
+}
+
+.comment-date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.load-replies {
+    color: blue;
+    cursor: pointer;
+}
